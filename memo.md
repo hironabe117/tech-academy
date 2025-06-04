@@ -1,11 +1,11 @@
 # マイクロサービスにおける認証方法と実装
 ## 2025/6/5
-# Cognitoの検証
+### Cognitoの検証
 以下内容を実機（CognitoとAWS CLI）で検証した。  
 https://dev.classmethod.jp/articles/get-started-with-amazon-cognito-now-1/
 ![image](https://github.com/user-attachments/assets/babe42a7-8303-4373-9173-c3c3af176612)
 
-# EC2への接続の比較（ChatGPTに聞いただけ）
+### EC2への接続の比較（ChatGPTに聞いただけ）
 | 接続方式        | EC2 Instance Connect         | セッションマネージャー                | SSHクライアント                 | EC2シリアルコンソール                |
 | ----------- | ---------------------------- | -------------------------- | ------------------------- | --------------------------- |
 | **特徴**      | ブラウザ上から直接EC2に接続              | SSM Agent経由で接続、ログの記録・監査も可能 | 従来のSSH接続                  | OSレベルの起動トラブル時などに使う低レベルなアクセス |
